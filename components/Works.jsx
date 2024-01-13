@@ -17,7 +17,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/works/3.png",
+    image: "/work/3.png",
     category: "react js",
     name: "Nexa Website",
     description:
@@ -26,7 +26,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/works/4.png",
+    image: "/work/4.png",
     category: "react js",
     name: "Solstice Website",
     description:
@@ -35,7 +35,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/works/2.png",
+    image: "/work/2.png",
     category: "next js",
     name: "Lumina Website",
     description:
@@ -44,7 +44,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/works/1.png",
+    image: "/work/1.png",
     category: "next js",
     name: "Evolve Website",
     description:
@@ -53,7 +53,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/works/3.png",
+    image: "/work/3.png",
     category: "next js",
     name: "Ignite Website",
     description:
@@ -62,7 +62,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/works/4.png",
+    image: "/work/4.png",
     category: "next js",
     name: "Envision Website",
     description:
@@ -71,7 +71,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/works/1.png",
+    image: "/work/1.png",
     category: "fullstack",
     name: "Serenity Website",
     description:
@@ -80,7 +80,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/works/3.png",
+    image: "/work/3.png",
     category: "fullstack",
     name: "Nova Website",
     description:
@@ -89,7 +89,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/works/2.png",
+    image: "/work/2.png",
     category: "fullstack",
     name: "Zenith Website",
     description:
@@ -129,7 +129,7 @@ const Works = () => {
             pagination={{ clickable: true }}
           >
             {/* show only the first 4 projects for the slides */}
-            {projectData.slice(0.4).map((project, index) => {
+            {projectData.slice(0, 4).map((project, index) => {
               return (
                 <SwiperSlide key={index}>
                   <ProjectCard project={project} />
