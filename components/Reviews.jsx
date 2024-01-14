@@ -24,13 +24,42 @@ const reviewsData = [
     avatar: "/reviews/avatar-1.png",
     name: "Diego Arturo",
     job: "Developer",
-    review: "Lorem",
+    review:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, saepe!",
+  },
+  {
+    avatar: "/reviews/avatar-1.png",
+    name: "Diego Arturo",
+    job: "Developer",
+    review:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, saepe!",
+  },
+  {
+    avatar: "/reviews/avatar-1.png",
+    name: "Diego Arturo",
+    job: "Developer",
+    review:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, saepe!",
+  },
+  {
+    avatar: "/reviews/avatar-1.png",
+    name: "Diego Arturo",
+    job: "Developer",
+    review:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, saepe!",
+  },
+  {
+    avatar: "/reviews/avatar-1.png",
+    name: "Diego Arturo",
+    job: "Developer",
+    review:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, saepe!",
   },
 ];
 
 const Reviews = () => {
   return (
-    <section>
+    <section className="mb-12 xl:mb-32 ">
       <div className="container mx-auto">
         <h2 className="section-title mb-12 text-center mx-auto">Reviews</h2>
         {/* slider */}
@@ -50,11 +79,27 @@ const Reviews = () => {
           {reviewsData.map((person, index) => {
             return (
               <SwiperSlide key={index}>
-                <Card>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae cum molestias cupiditate porro, totam quod tempora
-                  nihil voluptate ea, quia, quo cumque esse asperiores. Vitae
-                  voluptates deleniti illo voluptas ipsum?
+                <Card className="bg-tertiary dark:bg-secondary/40 p-8 min-h-[300px]">
+                  <CardHeader className="p-0 mb-10">
+                    <div className="flex items-center gap-x-4">
+                      {/* image */}
+                      <Image
+                        src={person.avatar}
+                        width={70}
+                        height={70}
+                        alt=""
+                        priority
+                      />
+                      {/* name */}
+                      <div className="flex flex-col">
+                        <CardTitle>{person.name}</CardTitle>
+                        <p>{person.job}</p>
+                      </div>
+                    </div>
+                  </CardHeader>
+                  <CardDescription className="text-lg text-muted-foreground">
+                    {person.review}
+                  </CardDescription>
                 </Card>
               </SwiperSlide>
             );
