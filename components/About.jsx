@@ -45,13 +45,8 @@ const qualificationData = [
       },
       {
         university: "ICPNA",
-        qualification: "X",
-        years: "X",
-      },
-      {
-        university: "CISCO",
-        qualification: "X",
-        years: "X",
+        qualification: "English Instructor",
+        years: "2017 - 2020",
       },
     ],
   },
@@ -59,9 +54,14 @@ const qualificationData = [
     title: "experience",
     data: [
       {
-        company: "X",
-        qualification: "X",
-        years: "X",
+        company: "Rosa Mistica Academy",
+        qualification: "Computer Teacher",
+        years: "2022 - 2023",
+      },
+      {
+        company: "Ricardo Palma Academy",
+        qualification: "System Administrator",
+        years: "September - December 2023",
       },
     ],
   },
@@ -196,7 +196,7 @@ const About = () => {
                         <div className="flex flex-col gap-y-8">
                           {getData(qualificationData, "experience").data.map(
                             (item, index) => {
-                              const { company, role, years } = item;
+                              const { company, qualification, years } = item;
                               return (
                                 <div className="flex gap-x-8 group" key={index}>
                                   <div className="h-[84px] w-[1px] bg-border relative ml-2">
@@ -207,7 +207,7 @@ const About = () => {
                                       {company}
                                     </div>
                                     <div className="text-lg leading-none text-muted-foreground mb-4">
-                                      {role}
+                                      {qualification}
                                     </div>
                                     <div className="text-base font-medium">
                                       {years}

@@ -1,11 +1,10 @@
 "use-client";
 
 import {
-  RiYoutubeFill,
+  // RiYoutubeFill,
   RiLinkedinFill,
   RiGithubFill,
   RiInstagramFill,
-  RiInstallFill,
 } from "react-icons/ri";
 
 import Link from "next/link";
@@ -13,7 +12,7 @@ import Link from "next/link";
 const icons = [
   {
     path: "/",
-    name: <RiYoutubeFill />,
+    name: <RiGithubFill />,
   },
   {
     path: "/",
@@ -21,16 +20,12 @@ const icons = [
   },
   {
     path: "/",
-    name: <RiGithubFill />,
-  },
-  {
-    path: "/",
     name: <RiInstagramFill />,
   },
-  {
-    path: "/",
-    name: <RiInstallFill />,
-  },
+  // {
+  //   path: "/",
+  //   name: <RiYoutubeFill />,
+  // },
 ];
 
 const Socials = ({ containerStyles, iconsStyles }) => {

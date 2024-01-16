@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <Hero />
       <About/>
-      <Services/>
+      {/* <Services/> */}
       <Works/>
       <Reviews/>
     </main>
