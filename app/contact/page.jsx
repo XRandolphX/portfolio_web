@@ -34,7 +34,7 @@ const Contact = () => {
             {/* address */}
             <div className="flex items-center gap-x-8">
               <HomeIcon size={18} className="text-primary" />
-              <div>Sullana - Piura - Perú</div>
+              <div>Sullana - Piura - Peru</div>
             </div>
             {/* phone */}
             <div className="flex items-center gap-x-8">
