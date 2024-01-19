@@ -17,7 +17,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/work/3.png",
+    image: "/work/projects/document_manager.png",
     category: "react js",
     name: "Nexa Website",
     description:
@@ -26,7 +26,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/4.png",
+    image: "/work/projects/app_inserge.png",
     category: "react js",
     name: "Solstice Website",
     description:
@@ -35,7 +35,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/2.png",
+    image: "/work/projects/inserge.png",
     category: "next js",
     name: "Lumina Website",
     description:
@@ -44,7 +44,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/1.png",
+    image: "/work/projects/irrigation_app.png",
     category: "next js",
     name: "Evolve Website",
     description:

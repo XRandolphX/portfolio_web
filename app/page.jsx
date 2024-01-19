@@ -13,7 +13,7 @@ export default function Home() {
       {/* <Services/> */}
       <Achievements />
       <Works />
-      <Reviews />
+      {/* <Reviews /> */}
     </main>
   );
 }

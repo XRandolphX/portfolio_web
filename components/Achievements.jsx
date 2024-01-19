@@ -13,82 +13,85 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 // components
-import ProjectCard from "@/components/ProjectCard";
+import Card from "@/components/Card";
 import { useState } from "react";
 import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
 
 const projectData = [
   {
-    image: "/work/1.png",
-    category: "experience",
-    name: "Nexa Website",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/1.png",
+    image: "/work/achievements/Proof_of_pre-professional_internship_2023.png",
     category: "experience",
     name: "Solstice Website",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
-    link: "/",
-    github: "/",
+    link: "https://drive.google.com/file/d/1J9shOA3pPFUQzF7pP0xKpR_XG2LiYisa/view?usp=drive_link",
   },
   {
-    image: "/work/1.png",
+    image: "/work/achievements/Certificate_of_English_Practice_2021.png",
+    category: "experience",
+    name: "English instructor trainee",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+    link: "https://drive.google.com/file/d/13gtv7Mj6Ni9AxyuMfRUsUxJ8yj9Sv910/view?usp=drive_link",
+  },
+  {
+    image: "/work/achievements/PEI_Rosa_Mistica_Certificate_2023.png",
     category: "experience",
     name: "Nexa Website",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
-    link: "/",
-    github: "/",
+    link: "https://drive.google.com/file/d/1kAb4zULO7F4665WtURFPQrW4cm4WNXLI/view?usp=drive_link",
   },
+
   {
-    image: "/work/1.png",
-    category: "experience",
-    name: "Solstice Website",
+    image: "/work/achievements/Merit_Diploma.png",
+    category: "achievements",
+    name: "Merit Diploma",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
-    link: "/",
-    github: "/",
+    link: "https://drive.google.com/file/d/1lr2RkZuCQCMWePsSdJjbs8krNJoThf53/view?usp=drive_link",
   },
   {
-    image: "/work/2.png",
+    image: "/work/achievements/Expowork_Sales_System_Certificate_2020.png",
     category: "achievements",
     name: "Lumina Website",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
-    link: "/",
-    github: "/",
+    link: "https://drive.google.com/file/d/1S3OOJdHblm7s9eFH9_RvtU0mtrSnNQnL/view?usp=drive_link",
   },
   {
-    image: "/work/2.png",
+    image:
+      "/work/achievements/International_Expo_Work_3D_Modeling_Certificate_2022.png",
     category: "achievements",
     name: "Evolve Website",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
-    link: "/",
-    github: "/",
+    link: "https://drive.google.com/file/d/1hEV5W9QO0QjeIecmAqfNl-WAc1HODg_b/view?usp=drive_link",
   },
   {
-    image: "/work/2.png",
+    image: "/work/achievements/Fair_3D_Modeling_Certificate_2022.png",
     category: "achievements",
     name: "Lumina Website",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
-    link: "/",
-    github: "/",
+    link: "https://drive.google.com/file/d/1b4F2QKDUcQOQ0hGQuUIoy_f3vv0D5bDJ/view?usp=drive_link",
   },
   {
-    image: "/work/2.png",
+    image: "/work/achievements/Fair_Mobile_App Certificate_2022.png",
     category: "achievements",
     name: "Evolve Website",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
-    link: "/",
-    github: "/",
+    link: "https://drive.google.com/file/d/1sRqTDVm8kmEPlZY19KWV3Iymc9lXUkDv/view?usp=drive_link",
+  },
+  {
+    image:
+      "/work/achievements/International_Smart_Irrigation_System_Certificate_2023.png",
+    category: "achievements",
+    name: "Evolve Website",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+    link: "https://drive.google.com/file/d/17ynSoFcOswOM1TnVn_SxOCIyogBrlxMM/view?usp=drive_link",
   },
 ];
 
@@ -108,7 +111,7 @@ const Achievements = () => {
     <section className="relative mb-12 xl:mb-48">
       <div className="container mx-auto">
         <Tabs defaultValue={category} className="mb-24 xl:mb-48">
-          <TabsList className="w-full grid h-full    md:grid-cols-2 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
+          <TabsList className="w-full grid h-full md:grid-cols-2 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
             {categories.map((category, index) => {
               return (
                 <TabsTrigger
@@ -139,7 +142,7 @@ const Achievements = () => {
               {/* show content from category */}
               {filteredProjects.map((project, index) => (
                 <SwiperSlide key={index}>
-                  <ProjectCard project={project} />
+                  <Card project={project} />
                 </SwiperSlide>
               ))}
             </Swiper>

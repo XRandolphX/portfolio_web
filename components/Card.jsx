@@ -15,6 +15,8 @@ const ProjectCard = ({ project }) => {
             src={project.image}
             width={430}
             height={242}
+            objectFit="cover"
+            objectPosition="center"
             alt=""
             priority
           />
@@ -22,15 +24,11 @@ const ProjectCard = ({ project }) => {
           <div className="flex gap-x-4">
             <Link
               href={project.link}
+              target="_blank" // enlace en una nueva pestaña
+              rel="noopener noreferrer" // seguridad
               className="bg-primary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
             >
               <Link2Icon className="text-white" />
-            </Link>
-            <Link
-              href={project.github}
-              className="bg-primary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
-            >
-              <Github className="text-white" />
             </Link>
           </div>
         </div>
