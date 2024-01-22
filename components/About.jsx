@@ -72,16 +72,16 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "HTML, CSS",
-      },
-      {
         name: "Front-end Development",
       },
       {
-        name: "JavaScript, PHP",
+        name: "HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap, Flutter",
       },
       {
         name: "Back-end Development",
+      },
+      {
+        name: "PHP, Node.js, Next.js, Express.js, Java, MySQL, Firebase",
       },
     ],
   },
@@ -95,10 +95,10 @@ const skillData = [
         imgPath: "/about/figma.svg",
       },
       {
-        imgPath: "/about/notion.svg",
+        imgPath: "/about/github.svg",
       },
       {
-        imgPath: "/about/wordpress.svg",
+        imgPath: "/about/git.svg",
       },
     ],
   },
@@ -121,7 +121,7 @@ const About = () => {
           <div className="hidden xl:flex flex-1 relative">
             <DevImg
               containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
-              imgSrc="/about/laptopCropped.png"
+              imgSrc="/about/laptop.png"
             />
           </div>
           {/* tabs */}
@@ -147,12 +147,12 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      Unmatched Service Quality for Over 10 Years
+                      Dedicated to Delivering Exceptional Service from Day One
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      I specialize in crafting intuitive websites with
-                      cutting-edge technology, delivering dynamic and engagin
-                      user experiences.
+                      As a budding web developer, I focus on crafting
+                      user-friendly websites using the latest technologies to
+                      provide dynamic and enjoyable user interactions.
                     </p>
                     {/* icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
@@ -180,7 +180,7 @@ const About = () => {
                 <TabsContent value="qualifications">
                   <div>
                     <h3 className="h3 mb-8 text-center xl:text-left">
-                      My awesome Journey
+                      Stepping Into the Remarkable
                     </h3>
                     {/* experience & education wrapper */}
                     <div className="grid md:grid-cols-2 gap-y-8">
@@ -260,7 +260,7 @@ const About = () => {
                 {/* skills */}
                 <TabsContent value="skills">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">What I use everyday</h3>
+                    <h3 className="h3 mb-8">My Daily Essentials</h3>
                     {/* skills */}
                     <div className="mb-16">
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
@@ -270,12 +270,22 @@ const About = () => {
                         {getData(skillData, "skills").data.map(
                           (item, index) => {
                             const { name } = item;
+                            const isFrontEnd = name === "Front-end Development";
+                            const isBackEnd = name === "Back-end Development";
                             return (
                               <div
-                                className="w-2/4 text-center xl:text-left mx-auto xl:mx-0"
+                                className={`w-2/4 text-center xl:text-left mx-auto xl:mx-0 ${
+                                  isFrontEnd || isBackEnd
+                                    ? "font-bold text-2xl"
+                                    : "font-medium"
+                                }`}
                                 key={index}
                               >
-                                <div className="font-medium">{name}</div>
+                                {isFrontEnd || isBackEnd ? (
+                                  <div>{name}</div>
+                                ) : (
+                                  <div>{name}</div>
+                                )}
                               </div>
                             );
                           }

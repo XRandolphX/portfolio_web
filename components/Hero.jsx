@@ -72,10 +72,10 @@ const Hero = () => {
               // endCountText='k'
               badgeText="Happy Clients"
             /> */}
-            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[482px] h-[482px] bg-no-repeat absolute top-3 -right-8"></div>
+            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[480px] h-[480px] bg-no-repeat absolute top-3 -right-5"></div>
             <DevImg
-              containerStyles="bg-hero_shape w-[450px] h-[462px] bg-no-repeat relative bg-bottom"
-              imgSrc="/hero/PHOTO.png"
+              containerStyles="bg-hero_shape w-[460px] h-[460px] bg-no-repeat relative bg-bottom"
+              imgSrc="/hero/perfil.png"
             />
           </div>
         </div>
