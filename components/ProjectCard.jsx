@@ -20,14 +20,16 @@ const ProjectCard = ({ project }) => {
           />
           {/* btn links */}
           <div className="flex gap-x-4">
-            <Link
+            {/* <Link
               href={project.link}
               className="bg-primary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
             >
               <Link2Icon className="text-white" />
-            </Link>
+            </Link> */}
             <Link
               href={project.github}
+              target="_blank" // enlace en una nueva pestaña
+              rel="noopener noreferrer" // seguridad
               className="bg-primary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
             >
               <Github className="text-white" />

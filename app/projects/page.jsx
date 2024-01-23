@@ -25,7 +25,7 @@ const projectData = [
       "Technologies: Flutter, Unity, Python, Flask, NumPy, Firebase",
     demo: "Demo: Not Available",
     link: "/",
-    github: "/",
+    github: "https://github.com/XRandolphX/ISG_MobileApp_Reports",
   },
   {
     image: "/work/projects/inserge.png",
@@ -36,7 +36,7 @@ const projectData = [
     technologies: "Technologies: CodeIgniter, Bootstrap, MySQL, jQuery",
     demo: "Demo: Not Available",
     link: "/",
-    github: "/",
+    github: "https://github.com/XRandolphX/logistic_system_inserge",
   },
   {
     image: "/work/projects/irrigation_app.png",
@@ -58,7 +58,7 @@ const projectData = [
     technologies: "Technologies: JavaFX, Scene Builder, SQL Server",
     demo: "Demo: Not Available",
     link: "/",
-    github: "/",
+    github: "https://github.com/XRandolphX/LightConsume",
   },
 ];
 
