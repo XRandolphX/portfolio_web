@@ -5,83 +5,58 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/work/3.png",
+    image: "/work/projects/document_manager.png",
     category: "react js",
-    name: "Nexa Website",
+    name: "Document Manager",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+      "Document generator and manager for the private educational institution Ricardo Palma in Sullana. The documents are created utilizing the ChatGPT API.",
+    technologies: "Technologies: React JS, PHP, Firebase, Chatgpt API",
+    demo: "Demo: Not Available",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/4.png",
-    category: "react js",
-    name: "Solstice Website",
+    image: "/work/projects/app_inserge.png",
+    category: "flutter",
+    name: "Inserge App",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+      "Mobile app managing construction project records and generating reports. Utilizes natural language API for search functionality.",
+    technologies:
+      "Technologies: Flutter, Unity, Python, Flask, NumPy, Firebase",
+    demo: "Demo: Not Available",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/2.png",
-    category: "next js",
-    name: "Lumina Website",
+    image: "/work/projects/inserge.png",
+    category: "Bootstrap",
+    name: "Logistics System Inserge",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+      "Development of a web-based solution to improve and streamline logistics operations of the construction company Inserge.",
+    technologies: "Technologies: CodeIgniter, Bootstrap, MySQL, jQuery",
+    demo: "Demo: Not Available",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/1.png",
-    category: "next js",
-    name: "Evolve Website",
+    image: "/work/projects/irrigation_app.png",
+    category: "MIT App Inventor",
+    name: "Smart Irrigation Application",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+      "The mobile application allows control, as well as viewing soil statistics, and enables water supply to the controlled area in three modes: manual, automatic, and programmed.",
+    technologies: "Technologies: C++, Arduino IDE, MIT App Inventor",
+    demo: "Demo: Not Available",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/3.png",
-    category: "next js",
-    name: "Ignite Website",
+    image: "/work/projects/light_consume.png",
+    category: "JavaFX",
+    name: "Electricity Bill Manager",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/4.png",
-    category: "next js",
-    name: "Envision Website",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/1.png",
-    category: "fullstack",
-    name: "Serenity Website",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/3.png",
-    category: "fullstack",
-    name: "Nova Website",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/2.png",
-    category: "fullstack",
-    name: "Zenith Website",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+      "Desktop application for managing electricity bills and calculating the energy consumption of household appliances.",
+    technologies: "Technologies: JavaFX, Scene Builder, SQL Server",
+    demo: "Demo: Not Available",
     link: "/",
     github: "/",
   },

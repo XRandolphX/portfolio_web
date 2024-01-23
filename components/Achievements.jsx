@@ -51,49 +51,49 @@ const projectData = [
     category: "achievements",
     name: "Merit Diploma",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+      "Diploma of Honor for Merit for achieving the fifth position throughout the 5 years of Secondary Education.",
     link: "https://drive.google.com/file/d/1lr2RkZuCQCMWePsSdJjbs8krNJoThf53/view?usp=drive_link",
   },
   {
     image: "/work/achievements/Expowork_Sales_System_Certificate_2020.png",
     category: "achievements",
-    name: "Lumina Website",
+    name: "UCV National Expowork",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+      'First place obtained in Category 2 at the National Expowork with the project "Sales and Commercial Support System MemoriesBack.',
     link: "https://drive.google.com/file/d/1S3OOJdHblm7s9eFH9_RvtU0mtrSnNQnL/view?usp=drive_link",
   },
   {
     image:
       "/work/achievements/International_Expo_Work_3D_Modeling_Certificate_2022.png",
     category: "achievements",
-    name: "Evolve Website",
+    name: "UCV International Expowork",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+      'Third place obtained in Category 3 at the International Expowork with the project "Modeling of the Main Building of Cesar Vallejo University, Piura Campus, and its surroundings using Cinema 4D software."',
     link: "https://drive.google.com/file/d/1hEV5W9QO0QjeIecmAqfNl-WAc1HODg_b/view?usp=drive_link",
   },
   {
     image: "/work/achievements/Fair_3D_Modeling_Certificate_2022.png",
     category: "achievements",
-    name: "Lumina Website",
+    name: "Innovation Fair",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+      'First place obtained in the Innovation Category at the Innovation and Entrepreneurship Fair with the project "Modeling Project of the Central Building of Cesar Vallejo University - Piura Campus."',
     link: "https://drive.google.com/file/d/1b4F2QKDUcQOQ0hGQuUIoy_f3vv0D5bDJ/view?usp=drive_link",
   },
   {
     image: "/work/achievements/Fair_Mobile_App Certificate_2022.png",
     category: "achievements",
-    name: "Evolve Website",
+    name: "Entrepreneurship Fair",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+      'First place obtained in the Entrepreneurship Category at the Innovation and Entrepreneurship Fair with the project "Mobile Application for Operational Project Control; Inserge Piura"',
     link: "https://drive.google.com/file/d/1sRqTDVm8kmEPlZY19KWV3Iymc9lXUkDv/view?usp=drive_link",
   },
   {
     image:
       "/work/achievements/International_Smart_Irrigation_System_Certificate_2023.png",
     category: "achievements",
-    name: "Evolve Website",
+    name: "UCV International Expowork",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+      'First place obtained in Category 4 at the International Expowork with the project "Smart Irrigation System with ESP32 and Bluetooth Control."',
     link: "https://drive.google.com/file/d/17ynSoFcOswOM1TnVn_SxOCIyogBrlxMM/view?usp=drive_link",
   },
 ];
