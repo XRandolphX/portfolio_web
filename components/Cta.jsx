@@ -3,11 +3,12 @@ import Link from "next/link";
 
 const Cta = () => {
   return (
-    <section className="py-24 bg-tertiary dark:bg-secondary/40">
+    <section className="py-20 bg-tertiary dark:bg-secondary/40">
       <div className="container mx-auto">
         <div className="flex flex-col items-center">
           <h2 className="h2 max-w-xl text-center mb-8">
-            Prepared turn your ideas into reality? I'm here to help
+            Ready to transform your concepts into tangible outcomes? I'm here to
+            assist you.
           </h2>
           <Link href="/contact">
             <Button>Contact me</Button>

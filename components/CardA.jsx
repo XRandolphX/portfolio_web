@@ -4,7 +4,7 @@ import { Card, CardHeader } from "./ui/card";
 import { Github, Link2Icon } from "lucide-react";
 import { Badge } from "./ui/badge";
 
-const ProjectCard = ({ project }) => {
+const CardA = ({ project }) => {
   return (
     <Card className="group overflow-hidden relative">
       <CardHeader className="p-0">
@@ -15,8 +15,6 @@ const ProjectCard = ({ project }) => {
             src={project.image}
             width={430}
             height={242}
-            objectFit="cover"
-            objectPosition="center"
             alt=""
             priority
           />
@@ -39,9 +37,10 @@ const ProjectCard = ({ project }) => {
         </Badge>
         <h4 className="h4 mb-1">{project.name}</h4>
         <p className="text-muted-foreground text-lg">{project.description}</p>
+        <p className="text-muted-foreground text-lg">{project.time}</p>
       </div>
     </Card>
   );
 };
 
-export default ProjectCard;
+export default CardA;

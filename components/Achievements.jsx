@@ -13,7 +13,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 // components
-import Card from "@/components/Card";
+import CardA from "@/components/CardA";
 import { useState } from "react";
 import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
 
@@ -21,9 +21,10 @@ const projectData = [
   {
     image: "/work/achievements/Proof_of_pre-professional_internship_2023.png",
     category: "experience",
-    name: "Solstice Website",
+    name: "Systems Administrator Intern",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+      "Systems Administrator Intern at the private educational institution Ricardo Palma in Sullana.",
+    time: "From March 4th to December 15th, 2023",
     link: "https://drive.google.com/file/d/1J9shOA3pPFUQzF7pP0xKpR_XG2LiYisa/view?usp=drive_link",
   },
   {
@@ -31,15 +32,17 @@ const projectData = [
     category: "experience",
     name: "English instructor trainee",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+      "Service commitment to Peru Pronabec as a trainee Instructor of the English language at Educational Institution 14787 Victor Raul Haya de la Torre in Sullana.",
+    time: "From March to December, 2021",
     link: "https://drive.google.com/file/d/13gtv7Mj6Ni9AxyuMfRUsUxJ8yj9Sv910/view?usp=drive_link",
   },
   {
     image: "/work/achievements/PEI_Rosa_Mistica_Certificate_2023.png",
     category: "experience",
-    name: "Nexa Website",
+    name: "Computer Science Instructor",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, sed?",
+      "Computer Science Instructor adept at delivering engaging lessons and fostering student mastery.",
+    time: "From May 26th, 2022, to December 16th, 2023",
     link: "https://drive.google.com/file/d/1kAb4zULO7F4665WtURFPQrW4cm4WNXLI/view?usp=drive_link",
   },
 
@@ -105,7 +108,7 @@ const Achievements = () => {
     //return category
     return project.category === category;
   });
-  console.log(filteredProjects);
+  // console.log(filteredProjects);
 
   return (
     <section className="relative mb-12 xl:mb-48">
@@ -128,7 +131,7 @@ const Achievements = () => {
           {/* slider */}
           <div>
             <Swiper
-              className="h-[480px]"
+              className="xl:h-[550px] lg:h-[570px] md:h-[640px] sm:h-[720px]"
               slidesPerView={1}
               breakpoints={{
                 640: {
@@ -142,7 +145,7 @@ const Achievements = () => {
               {/* show content from category */}
               {filteredProjects.map((project, index) => (
                 <SwiperSlide key={index}>
-                  <Card project={project} />
+                  <CardA project={project} />
                 </SwiperSlide>
               ))}
             </Swiper>
