@@ -21,10 +21,11 @@ const projectData = [
     category: "react js",
     name: "Document Manager",
     description:
-      "Document generator and manager for the private educational institution Ricardo Palma in Sullana. The documents are created utilizing the ChatGPT API.",
+      "Document generator and manager for the private educational institution Ricardo Palma in Sullana. I helped myself to hostinger for the backend.",
     technologies: "Technologies: React JS, PHP, Firebase, Chatgpt API",
+    demo: "Demo: Not Available",
     link: "/",
-    github: "/",
+    github: "https://github.com/XRandolphX/document_manager",
   },
   {
     image: "/work/projects/app_inserge.png",
@@ -34,8 +35,9 @@ const projectData = [
       "Mobile app managing construction project records and generating reports. Utilizes natural language API for search functionality.",
     technologies:
       "Technologies: Flutter, Unity, Python, Flask, NumPy, Firebase",
+    demo: "Demo: Not Available",
     link: "/",
-    github: "/",
+    github: "https://github.com/XRandolphX/ISG_MobileApp_Reports",
   },
   {
     image: "/work/projects/inserge.png",
@@ -44,8 +46,9 @@ const projectData = [
     description:
       "Development of a web-based solution to improve and streamline logistics operations of the construction company Inserge.",
     technologies: "Technologies: CodeIgniter, Bootstrap, MySQL, jQuery",
+    demo: "Demo: Not Available",
     link: "/",
-    github: "/",
+    github: "https://github.com/XRandolphX/logistic_system_inserge",
   },
   {
     image: "/work/projects/irrigation_app.png",
@@ -54,8 +57,20 @@ const projectData = [
     description:
       "The mobile application allows control, as well as viewing soil statistics, and enables water supply to the controlled area in three modes: manual, automatic, and programmed.",
     technologies: "Technologies: C++, Arduino IDE, MIT App Inventor",
+    demo: "Demo: Not Available",
     link: "/",
-    github: "/",
+    github: "https://github.com/XRandolphX/Smart_Irrigation_App",
+  },
+  {
+    image: "/work/projects/light_consume.png",
+    category: "JavaFX",
+    name: "Electricity Bill Manager",
+    description:
+      "Desktop application for managing electricity bills and calculating the energy consumption of household appliances.",
+    technologies: "Technologies: JavaFX, Scene Builder, SQL Server",
+    demo: "Demo: Not Available",
+    link: "/",
+    github: "https://github.com/XRandolphX/LightConsume",
   },
 ];
 

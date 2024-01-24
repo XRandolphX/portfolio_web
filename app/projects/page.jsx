@@ -9,11 +9,11 @@ const projectData = [
     category: "react js",
     name: "Document Manager",
     description:
-      "Document generator and manager for the private educational institution Ricardo Palma in Sullana. The documents are created utilizing the ChatGPT API.",
+      "Document generator and manager for the private educational institution Ricardo Palma in Sullana. I helped myself to hostinger for the backend.",
     technologies: "Technologies: React JS, PHP, Firebase, Chatgpt API",
     demo: "Demo: Not Available",
     link: "/",
-    github: "/",
+    github: "https://github.com/XRandolphX/document_manager",
   },
   {
     image: "/work/projects/app_inserge.png",
@@ -47,7 +47,7 @@ const projectData = [
     technologies: "Technologies: C++, Arduino IDE, MIT App Inventor",
     demo: "Demo: Not Available",
     link: "/",
-    github: "/",
+    github: "https://github.com/XRandolphX/Smart_Irrigation_App",
   },
   {
     image: "/work/projects/light_consume.png",

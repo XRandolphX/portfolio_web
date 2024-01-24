@@ -63,7 +63,7 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[80%] -left-[1rem]"
               icon={<RiTodoFill />}
-              endCountNum={4}
+              endCountNum={5}
               // endCountText='k'
               badgeText="Finished Projects"
             />
@@ -74,7 +74,7 @@ const Hero = () => {
               // endCountText='k'
               badgeText="Happy Clients"
             /> */}
-            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[480px] h-[480px] bg-no-repeat absolute top-3 -right-5"></div>
+            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[520px] h-[520px] bg-no-repeat absolute -top-0 -right-8"></div>
             <DevImg
               containerStyles="bg-hero_shape w-[460px] h-[460px] bg-no-repeat relative bg-bottom"
               imgSrc="/hero/perfil.png"
