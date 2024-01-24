@@ -36,4 +36,4 @@ yarn-error.log*
 next-env.d.ts
 
 # EmailJS Key
-/app/keys.js
+# /app/keys.js
