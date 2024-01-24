@@ -91,7 +91,7 @@ const Works = () => {
         {/* slider */}
         <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
           <Swiper
-            className="xl:h-[610px] lg:h-[610px] md:h-[670px] sm:h-[740px]"
+            className="xl:h-[600px] lg:h-[620px] md:h-[600px] sm:h-[640px]"
             slidesPerView={1}
             breakpoints={{
               640: {

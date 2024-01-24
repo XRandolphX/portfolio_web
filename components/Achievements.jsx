@@ -131,7 +131,7 @@ const Achievements = () => {
           {/* slider */}
           <div>
             <Swiper
-              className="xl:h-[550px] lg:h-[570px] md:h-[640px] sm:h-[720px]"
+              className="xl:h-[530px] lg:h-[560px] md:h-[590px] sm:h-[620px]"
               slidesPerView={1}
               breakpoints={{
                 640: {
