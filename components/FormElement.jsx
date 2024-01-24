@@ -20,10 +20,10 @@ const FormElement = () => {
 
     emailjs
       .sendForm(
-        KEYS.SERVICE_ID,
-        KEYS.TEMPLATE_ID,
+        "service_czlqjam",
+        "template_8bspad3",
         form.current,
-        KEYS.PUBLIC_KEY
+        "DAbHOHZVw1nit6CLk"
       )
       .then(
         (result) => {
