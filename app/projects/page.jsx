@@ -33,7 +33,8 @@ const projectData = [
     name: "Logistics System Inserge",
     description:
       "Development of a web-based solution to improve and streamline logistics operations of the construction company Inserge.",
-    technologies: "Technologies: Html, Css, Bootstrap, Php, JavaScript, CodeIgniter, MySQL, jQuery",
+    technologies:
+      "Technologies: Html, Css, Bootstrap, Php, JavaScript, CodeIgniter, MySQL, jQuery",
     demo: "Demo: Not Available",
     link: "/",
     github: "https://github.com/XRandolphX/logistic_system_inserge",
