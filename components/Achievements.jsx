@@ -74,7 +74,7 @@ const projectData = [
   {
     image: "/work/achievements/Fair_3D_Modeling_Certificate_2022.png",
     category: "achievements",
-    name: "Innovation Fair",
+    name: "UCV Innovation Fair",
     description:
       'First place obtained in the Innovation Category at the Innovation and Entrepreneurship Fair with the project "Modeling Project of the Central Building of Cesar Vallejo University - Piura Campus."',
     link: "https://drive.google.com/file/d/1b4F2QKDUcQOQ0hGQuUIoy_f3vv0D5bDJ/view?usp=drive_link",
@@ -82,7 +82,7 @@ const projectData = [
   {
     image: "/work/achievements/Fair_Mobile_App Certificate_2022.png",
     category: "achievements",
-    name: "Entrepreneurship Fair",
+    name: "UCV Entrepreneurship Fair",
     description:
       'First place obtained in the Entrepreneurship Category at the Innovation and Entrepreneurship Fair with the project "Mobile Application for Operational Project Control; Inserge Piura"',
     link: "https://drive.google.com/file/d/1sRqTDVm8kmEPlZY19KWV3Iymc9lXUkDv/view?usp=drive_link",
