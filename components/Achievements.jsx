@@ -34,7 +34,7 @@ const projectData = [
     name: "Computer Science Instructor",
     description: "Teaching office software and the foundations of programming.",
     workplace: "Private Educational Institution (PEI) “Rosa Mistica”",
-    time: "From May 2022, to December, 2023",
+    time: "From May 2022 to December, 2023",
     link: "https://drive.google.com/file/d/1kAb4zULO7F4665WtURFPQrW4cm4WNXLI/view?usp=drive_link",
   },
   {
