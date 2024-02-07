@@ -10,7 +10,7 @@ const projectData = [
     name: "Document Manager",
     description:
       "Document generator and manager for the private educational institution Ricardo Palma in Sullana. I helped myself to hostinger for the backend.",
-    technologies: "Technologies: React JS, PHP, Firebase, Chatgpt API",
+    technologies: "Technologies: HTML, CSS, JS, React, PHP y Firebase",
     demo: "Demo: Not Available",
     link: "/",
     github: "https://github.com/XRandolphX/document_manager",
