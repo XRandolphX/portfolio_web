@@ -23,7 +23,7 @@ const projectData = [
     category: "experience",
     name: "Full-stack web developer",
     description:
-      "Full-stack web development with HTML, CSS, JS, React, PHP y Firebase.",
+      "Full-stack web development with HTML, CSS, JS, React, PHP and Firebase.",
     workplace: "Private Educational Institution (PEI) “Ricardo Palma”",
     time: "From September to December, 2023",
     link: "https://drive.google.com/file/d/1J9shOA3pPFUQzF7pP0xKpR_XG2LiYisa/view?usp=drive_link",
