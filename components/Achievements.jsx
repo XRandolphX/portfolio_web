@@ -21,29 +21,28 @@ const projectData = [
   {
     image: "/work/achievements/Proof_of_pre-professional_internship_2023.png",
     category: "experience",
-    name: "Systems Administrator Intern",
+    name: "Full-stack web developer",
     description:
-      "Systems Administrator Intern at the private educational institution Ricardo Palma in Sullana.",
-    time: "From March 4th to December 15th, 2023",
+      "Full-stack web development with HTML, CSS, JS, React, PHP y Firebase.",
+    time: "Private Educational Institution (PEI) “Ricardo Palma” - From September to December, 2023",
     link: "https://drive.google.com/file/d/1J9shOA3pPFUQzF7pP0xKpR_XG2LiYisa/view?usp=drive_link",
-  },
-  {
-    image: "/work/achievements/Certificate_of_English_Practice_2021.png",
-    category: "experience",
-    name: "English instructor trainee",
-    description:
-      "Service commitment to Peru Pronabec as a trainee Instructor of the English language at Educational Institution 14787 Victor Raul Haya de la Torre in Sullana.",
-    time: "From March to December, 2021",
-    link: "https://drive.google.com/file/d/13gtv7Mj6Ni9AxyuMfRUsUxJ8yj9Sv910/view?usp=drive_link",
   },
   {
     image: "/work/achievements/PEI_Rosa_Mistica_Certificate_2023.png",
     category: "experience",
     name: "Computer Science Instructor",
-    description:
-      "Computer Science Instructor adept at delivering engaging lessons and fostering student mastery.",
-    time: "From May 26th, 2022, to December 16th, 2023",
+    description: "Teaching office software and the foundations of programming.",
+    time: "Private Educational Institution (PEI) “Rosa Mistica”  - From May 26th, 2022, to December 16th, 2023",
     link: "https://drive.google.com/file/d/1kAb4zULO7F4665WtURFPQrW4cm4WNXLI/view?usp=drive_link",
+  },
+  {
+    image: "/work/achievements/Certificate_of_English_Practice_2021.png",
+    category: "experience",
+    name: "English instructor",
+    description:
+      "Remote English classes; responsible for various grades and sections at the secondary level.",
+    time: 'Commitment of Service to Peru (EI) 14787 "Victor Raul Haya de la Torre" - From March to December, 2021',
+    link: "https://drive.google.com/file/d/13gtv7Mj6Ni9AxyuMfRUsUxJ8yj9Sv910/view?usp=drive_link",
   },
 
   {
