@@ -25,12 +25,13 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-4">Hello, my name is Randolph </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Dedicated Systems Engineering student diving into web development
-              since 2019. Comfortable with HTML, CSS, JavaScript, TypeScript,
-              PHP, SQL, and more. Familiar with frameworks like React, Node.js
-              Express.js, Next.js, Flask, and versed in Git and GitHub.
-              Embracing continuous learning and collaboration, I see software
-              development as an ongoing, humble journey.
+              Knowledge in front-end development with JavaScript, React,
+              Next.js, HTML5 and CSS3, and basic back-end experience with PHP
+              (Laravel), Node.js (Express.js) and Python. Introduction to mobile
+              development with Kotlin (Android) and Flutter. Familiarity with
+              MySQL and Firebase databases. Skills in Figma, WordPress and Git,
+              and ability for simple full-stack projects. Focus on clean code,
+              continuous learning and constant improvement.
             </p>
             {/* buttons */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
