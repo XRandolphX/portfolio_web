@@ -75,13 +75,31 @@ const skillData = [
         name: "Front-end Development",
       },
       {
-        name: "HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap, Flutter",
+        name: "HTML, CSS, JavaScript, React, y Next.js",
       },
       {
         name: "Back-end Development",
       },
       {
-        name: "PHP, Node.js, Next.js, Express.js, Java, MySQL, Firebase",
+        name: "PHP(Laravel), Node.js(Express.js)",
+      },
+      {
+        name: "Mobile development",
+      },
+      {
+        name: "Kotlin (Android) y Flutter",
+      },
+      {
+        name: "Database",
+      },
+      {
+        name: "MySQL y Firebase",
+      },
+      {
+        name: "Tools",
+      },
+      {
+        name: "Git, Figma y WordPress",
       },
     ],
   },
