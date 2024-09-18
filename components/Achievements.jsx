@@ -21,29 +21,32 @@ const projectData = [
   {
     image: "/work/achievements/Proof_of_pre-professional_internship_2023.png",
     category: "experience",
-    name: "Systems Administrator Intern",
+    name: "Full-stack web developer",
     description:
-      "Systems Administrator Intern at the private educational institution Ricardo Palma in Sullana.",
-    time: "From March 4th to December 15th, 2023",
+      "Full-stack web development with HTML, CSS, JS, React, PHP and Firebase.",
+    workplace: "Private Educational Institution (PEI) “Ricardo Palma”",
+    time: "From September to December, 2023",
     link: "https://drive.google.com/file/d/1J9shOA3pPFUQzF7pP0xKpR_XG2LiYisa/view?usp=drive_link",
-  },
-  {
-    image: "/work/achievements/Certificate_of_English_Practice_2021.png",
-    category: "experience",
-    name: "English instructor trainee",
-    description:
-      "Service commitment to Peru Pronabec as a trainee Instructor of the English language at Educational Institution 14787 Victor Raul Haya de la Torre in Sullana.",
-    time: "From March to December, 2021",
-    link: "https://drive.google.com/file/d/13gtv7Mj6Ni9AxyuMfRUsUxJ8yj9Sv910/view?usp=drive_link",
   },
   {
     image: "/work/achievements/PEI_Rosa_Mistica_Certificate_2023.png",
     category: "experience",
     name: "Computer Science Instructor",
-    description:
-      "Computer Science Instructor adept at delivering engaging lessons and fostering student mastery.",
-    time: "From May 26th, 2022, to December 16th, 2023",
+    description: "Teaching office software and the foundations of programming.",
+    workplace: "Private Educational Institution (PEI) “Rosa Mistica”",
+    time: "From May 2022 to December, 2023",
     link: "https://drive.google.com/file/d/1kAb4zULO7F4665WtURFPQrW4cm4WNXLI/view?usp=drive_link",
+  },
+  {
+    image: "/work/achievements/Certificate_of_English_Practice_2021.png",
+    category: "experience",
+    name: "English instructor",
+    description:
+      "Remote English classes; responsible for various grades and sections at the secondary level.",
+    workplace:
+      'Commitment of Service to Peru (EI) 14787 "Victor Raul Haya de la Torre"',
+    time: "From March to December, 2021",
+    link: "https://drive.google.com/file/d/13gtv7Mj6Ni9AxyuMfRUsUxJ8yj9Sv910/view?usp=drive_link",
   },
 
   {
@@ -74,7 +77,7 @@ const projectData = [
   {
     image: "/work/achievements/Fair_3D_Modeling_Certificate_2022.png",
     category: "achievements",
-    name: "Innovation Fair",
+    name: "UCV Innovation Fair",
     description:
       'First place obtained in the Innovation Category at the Innovation and Entrepreneurship Fair with the project "Modeling Project of the Central Building of Cesar Vallejo University - Piura Campus."',
     link: "https://drive.google.com/file/d/1b4F2QKDUcQOQ0hGQuUIoy_f3vv0D5bDJ/view?usp=drive_link",
@@ -82,7 +85,7 @@ const projectData = [
   {
     image: "/work/achievements/Fair_Mobile_App Certificate_2022.png",
     category: "achievements",
-    name: "Entrepreneurship Fair",
+    name: "UCV Entrepreneurship Fair",
     description:
       'First place obtained in the Entrepreneurship Category at the Innovation and Entrepreneurship Fair with the project "Mobile Application for Operational Project Control; Inserge Piura"',
     link: "https://drive.google.com/file/d/1sRqTDVm8kmEPlZY19KWV3Iymc9lXUkDv/view?usp=drive_link",
