@@ -41,7 +41,7 @@ const qualificationData = [
       {
         university: "Cesar Vallejo University",
         qualification: "System Engineer Student",
-        years: "2020 - 2024",
+        years: "2019 - 2024",
       },
       {
         university: "ICPNA",
@@ -54,13 +54,18 @@ const qualificationData = [
     title: "experience",
     data: [
       {
+        company: "UGEL Sullana",
+        qualification: "Web developer",
+        years: "February - July 2024",
+      },
+      {
         company: "Rosa Mistica Academy",
         qualification: "Computer Teacher",
-        years: "2022 - 2023",
+        years: "2022 - 2024",
       },
       {
         company: "Ricardo Palma Academy",
-        qualification: "System Administrator",
+        qualification: "Web developer",
         years: "September - December 2023",
       },
     ],
@@ -95,12 +100,12 @@ const skillData = [
       {
         name: "MySQL y Firebase",
       },
-      {
-        name: "Tools",
-      },
-      {
-        name: "Git, Figma y WordPress",
-      },
+      // {
+      //   name: "Tools",
+      // },
+      // {
+      //   name: "Git, Figma y WordPress",
+      // },
     ],
   },
   {
@@ -118,6 +123,9 @@ const skillData = [
       {
         imgPath: "/about/git.svg",
       },
+      {
+        imgPath: "/about/wordpress-icon.svg",
+      },
     ],
   },
 ];
@@ -129,7 +137,7 @@ const About = () => {
   };
   // console.log(getData(qualificationData, 'education'));
   return (
-    <section className="xl:h-[860px] pb-12 xl:py-24">
+    <section className="xl:h-[940px] pb-12 xl:py-24">
       <div className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           About me
@@ -278,28 +286,39 @@ const About = () => {
                 {/* skills */}
                 <TabsContent value="skills">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">My Daily Essentials</h3>
+                    <h3 className="h3 mb-8">Technology Stack</h3>
                     {/* skills */}
-                    <div className="mb-16">
+                    <div className="mb-8">
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* skills list */}
-                      <div>
+                      <div className="">
                         {getData(skillData, "skills").data.map(
                           (item, index) => {
                             const { name } = item;
                             const isFrontEnd = name === "Front-end Development";
                             const isBackEnd = name === "Back-end Development";
+                            const isMobile = name === "Mobile development";
+                            const isDatabase = name === "Database";
+                            const isTools = name === "Tools";
                             return (
                               <div
                                 className={`w-2/4 text-center xl:text-left mx-auto xl:mx-0 ${
-                                  isFrontEnd || isBackEnd
+                                  isFrontEnd ||
+                                  isBackEnd ||
+                                  isMobile ||
+                                  isDatabase ||
+                                  isTools
                                     ? "font-bold text-2xl"
                                     : "font-medium"
                                 }`}
                                 key={index}
                               >
-                                {isFrontEnd || isBackEnd ? (
+                                {isFrontEnd ||
+                                isBackEnd ||
+                                isMobile ||
+                                isDatabase ||
+                                isTools ? (
                                   <div>{name}</div>
                                 ) : (
                                   <div>{name}</div>

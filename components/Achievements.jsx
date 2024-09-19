@@ -19,21 +19,31 @@ import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
 
 const projectData = [
   {
+    image: "/work/achievements/ugel_sullana_certificate.png",
+    category: "experience",
+    name: "Web developer",
+    description:
+      "Web development with PHP and Laravel.",
+    workplace: "UGEL Sullana",
+    time: "From February to June, 2024",
+    link: "https://drive.google.com/file/d/1j_M-3lCrXT50JzBfUPSHWKBZL-YA4T1n/view?usp=drive_link",
+  },
+  {
     image: "/work/achievements/Proof_of_pre-professional_internship_2023.png",
     category: "experience",
-    name: "Full-stack web developer",
+    name: "Web developer",
     description:
-      "Full-stack web development with HTML, CSS, JS, React, PHP and Firebase.",
-    workplace: "Private Educational Institution (PEI) “Ricardo Palma”",
+      "Web development with HTML, CSS, JS, React, PHP and Firebase.",
+    workplace: "Private Educational Institution “Ricardo Palma”",
     time: "From September to December, 2023",
     link: "https://drive.google.com/file/d/1J9shOA3pPFUQzF7pP0xKpR_XG2LiYisa/view?usp=drive_link",
   },
   {
     image: "/work/achievements/PEI_Rosa_Mistica_Certificate_2023.png",
     category: "experience",
-    name: "Computer Science Instructor",
-    description: "Teaching office software and the foundations of programming.",
-    workplace: "Private Educational Institution (PEI) “Rosa Mistica”",
+    name: "Computer Teacher",
+    description: "Teaching of office programs, hardware, software, design tools and basic networking.",
+    workplace: "Private Educational Institution “Rosa Mistica”",
     time: "From May 2022 to December, 2023",
     link: "https://drive.google.com/file/d/1kAb4zULO7F4665WtURFPQrW4cm4WNXLI/view?usp=drive_link",
   },

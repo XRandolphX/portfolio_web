@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           {/* text */}
-          <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
+          <div className="flex max-w-[600px] md:max-w-[500px] lg:max-w-[600px] flex-col justify-center mx-auto text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Web Developer
             </div>
@@ -41,7 +41,7 @@ const Hero = () => {
                 </Button>
               </Link>
               <Link
-                href="https://drive.google.com/file/d/1Q8ti8yOvMcXEzVaJMnamUIjG-fbyAnRq/view?usp=sharing"
+                href="https://drive.google.com/file/d/1aHTQF6snPOTr-OnMlKE0Jrdl2gXFLQrx/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
