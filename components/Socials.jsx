@@ -18,10 +18,10 @@ const icons = [
     path: "https://www.linkedin.com/in/randolph-fabrizio-ramirez-palacios-4766a1272",
     name: <RiLinkedinFill />,
   },
-  {
-    path: "https://www.instagram.com/randolph.ramirezpalacios",
-    name: <RiInstagramFill />,
-  },
+  // {
+  //   path: "https://www.instagram.com/randolph.ramirezpalacios",
+  //   name: <RiInstagramFill />,
+  // },
   // {
   //   path: "/",
   //   name: <RiYoutubeFill />,

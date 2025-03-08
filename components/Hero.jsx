@@ -25,13 +25,13 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-4">Hello, my name is Randolph </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Knowledge in front-end development with JavaScript, React,
-              Next.js, HTML5 and CSS3, and basic back-end experience with PHP
-              (Laravel), Node.js (Express.js) and Python. Introduction to mobile
-              development with Kotlin (Android) and Flutter. Familiarity with
-              MySQL and Firebase databases. Skills in Figma, WordPress and Git,
-              and ability for simple full-stack projects. Focus on clean code,
-              continuous learning and constant improvement.
+              Passionate about technology and in constant search of learning.
+              Specialized in web development, with a focus on creating scalable
+              and efficient solutions. I enjoy working in teams, collaborating
+              on practical projects and exploring new tools and technologies. My
+              goal is to continue growing as a professional, adding value
+              through my work and being an active part of the technological
+              evolution.
             </p>
             {/* buttons */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
@@ -41,7 +41,7 @@ const Hero = () => {
                 </Button>
               </Link>
               <Link
-                href="https://drive.google.com/file/d/1aHTQF6snPOTr-OnMlKE0Jrdl2gXFLQrx/view?usp=drive_link"
+                href="https://drive.google.com/file/d/11d55eG48Mlr_s1s4W6HZKxfPnjnXgcc4/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >

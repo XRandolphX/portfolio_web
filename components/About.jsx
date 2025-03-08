@@ -54,19 +54,19 @@ const qualificationData = [
     title: "experience",
     data: [
       {
+        company: "Inngresa",
+        qualification: "Technical documenter",
+        years: "October - December 2024",
+      },
+      {
         company: "UGEL Sullana",
         qualification: "Web developer",
-        years: "February - July 2024",
+        years: "February - June 2024",
       },
       {
         company: "Rosa Mistica Academy",
         qualification: "Computer Teacher",
         years: "2022 - 2024",
-      },
-      {
-        company: "Ricardo Palma Academy",
-        qualification: "Web developer",
-        years: "September - December 2023",
       },
     ],
   },
@@ -87,12 +87,6 @@ const skillData = [
       },
       {
         name: "PHP(Laravel), Node.js(Express.js)",
-      },
-      {
-        name: "Mobile development",
-      },
-      {
-        name: "Kotlin (Android) y Flutter",
       },
       {
         name: "Database",
@@ -123,9 +117,9 @@ const skillData = [
       {
         imgPath: "/about/git.svg",
       },
-      {
-        imgPath: "/about/wordpress-icon.svg",
-      },
+      // {
+      //   imgPath: "/about/wordpress-icon.svg",
+      // },
     ],
   },
 ];
