@@ -13,7 +13,7 @@ const projectData = [
     technologies: "Technologies: HTML, CSS, JS, React, PHP y Firebase",
     demo: "Demo: Not Available",
     link: "/",
-    github: "https://github.com/XRandolphX/document_manager",
+    github: "https://github.com/XRandolphX/document_generator.git",
   },
   {
     image: "/work/projects/app_inserge.png",

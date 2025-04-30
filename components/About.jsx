@@ -86,13 +86,13 @@ const skillData = [
         name: "Back-end Development",
       },
       {
-        name: "PHP(Laravel), Node.js(Express.js)",
+        name: "Node.js(Express.js), Python",
       },
       {
         name: "Database",
       },
       {
-        name: "MySQL y Firebase",
+        name: "PostgreSQL, MySQL y Firebase",
       },
       // {
       //   name: "Tools",
