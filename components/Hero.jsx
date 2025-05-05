@@ -25,13 +25,31 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-4">Hello, my name is Randolph </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Passionate about technology and in constant search of learning.
-              Specialized in web development, with a focus on creating scalable
-              and efficient solutions. I enjoy working in teams, collaborating
-              on practical projects and exploring new tools and technologies. My
-              goal is to continue growing as a professional, adding value
-              through my work and being an active part of the technological
-              evolution.
+              Web developer with a Systems Engineering background and practical
+              experience building complete applications. I've created projects
+              featuring responsive interfaces, authentication systems, and full
+              CRUD functionality. On the frontend, I work with HTML, CSS,
+              JavaScript, and frameworks like React and Next.js, often paired
+              with Tailwind CSS or Bootstrap for efficient and consistent
+              styling. On the backend, I develop RESTful APIs using Node.js,
+              Express, and Python with Flask. I've integrated artificial
+              intelligence solutions and work with databases such as MySQL,
+              PostgreSQL, and Firebase for data storage and real-time
+              functionality. I'm committed to continuous learning, eager to
+              collaborate with dynamic teams, and contribute to scalable and
+              meaningful solutions.Web developer with a Systems Engineering
+              background and practical experience building complete
+              applications. I've created projects featuring responsive
+              interfaces, authentication systems, and full CRUD functionality.
+              On the frontend, I work with HTML, CSS, JavaScript, and frameworks
+              like React and Next.js, often paired with Tailwind CSS or
+              Bootstrap for efficient and consistent styling. On the backend, I
+              develop RESTful APIs using Node.js, Express, and Python with
+              Flask. I've integrated artificial intelligence solutions and work
+              with databases such as MySQL, PostgreSQL, and Firebase for data
+              storage and real-time functionality. I'm committed to continuous
+              learning, eager to collaborate with dynamic teams, and contribute
+              to scalable and meaningful solutions.
             </p>
             {/* buttons */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
