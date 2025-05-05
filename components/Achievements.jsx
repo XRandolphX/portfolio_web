@@ -21,7 +21,7 @@ const projectData = [
   {
     image: "/work/achievements/employment_certificate_from_inngresa.jpg",
     category: "experience",
-    name: "Technical Documenter",
+    name: "Technical Writer",
     description: "I contributed to Inngresa's technical documentation bases.",
     workplace: "Inngresa",
     time: "From October to December, 2024",
@@ -30,7 +30,7 @@ const projectData = [
   {
     image: "/work/achievements/ugel_sullana_certificate.png",
     category: "experience",
-    name: "Web developer",
+    name: "Technology and IT Support Assistant",
     description: "Web development with PHP and Laravel.",
     workplace: "UGEL Sullana",
     time: "From February to June, 2024",
@@ -39,7 +39,7 @@ const projectData = [
   {
     image: "/work/achievements/Proof_of_pre-professional_internship_2023.png",
     category: "experience",
-    name: "Web developer",
+    name: "Educational Solutions Developer",
     description: "Web development with HTML, CSS, JS, React, PHP and Firebase.",
     workplace: "Private Educational Institution “Ricardo Palma”",
     time: "From September to December, 2023",
@@ -48,7 +48,7 @@ const projectData = [
   {
     image: "/work/achievements/PEI_Rosa_Mistica_Certificate_2023.png",
     category: "experience",
-    name: "Computer Teacher",
+    name: "Computer Science Teacher",
     description:
       "Teaching of office programs, hardware, software, design tools and basic networking.",
     workplace: "Private Educational Institution “Rosa Mistica”",
@@ -58,7 +58,7 @@ const projectData = [
   {
     image: "/work/achievements/Certificate_of_English_Practice_2021.png",
     category: "experience",
-    name: "English instructor",
+    name: "English Teacher",
     description:
       "Remote English classes; responsible for various grades and sections at the secondary level.",
     workplace:

@@ -45,7 +45,7 @@ const qualificationData = [
       },
       {
         university: "ICPNA",
-        qualification: "English Instructor",
+        qualification: "English Student",
         years: "2017 - 2020",
       },
     ],
@@ -55,16 +55,21 @@ const qualificationData = [
     data: [
       {
         company: "Inngresa",
-        qualification: "Technical documenter",
+        qualification: "Technical Writer",
         years: "October - December 2024",
       },
       {
         company: "UGEL Sullana",
-        qualification: "Web developer",
+        qualification: "Technology and IT Support Assistant",
         years: "February - June 2024",
       },
       {
-        company: "Rosa Mistica Academy",
+        company: "Ricardo Palma School",
+        qualification: "Educational Solutions Developer",
+        years: "2022 - 2024",
+      },
+      {
+        company: "Rosa Mistica School",
         qualification: "Computer Teacher",
         years: "2022 - 2024",
       },
