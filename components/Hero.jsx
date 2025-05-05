@@ -37,19 +37,7 @@ const Hero = () => {
               PostgreSQL, and Firebase for data storage and real-time
               functionality. I'm committed to continuous learning, eager to
               collaborate with dynamic teams, and contribute to scalable and
-              meaningful solutions.Web developer with a Systems Engineering
-              background and practical experience building complete
-              applications. I've created projects featuring responsive
-              interfaces, authentication systems, and full CRUD functionality.
-              On the frontend, I work with HTML, CSS, JavaScript, and frameworks
-              like React and Next.js, often paired with Tailwind CSS or
-              Bootstrap for efficient and consistent styling. On the backend, I
-              develop RESTful APIs using Node.js, Express, and Python with
-              Flask. I've integrated artificial intelligence solutions and work
-              with databases such as MySQL, PostgreSQL, and Firebase for data
-              storage and real-time functionality. I'm committed to continuous
-              learning, eager to collaborate with dynamic teams, and contribute
-              to scalable and meaningful solutions.
+              meaningful solutions.
             </p>
             {/* buttons */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
