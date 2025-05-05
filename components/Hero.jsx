@@ -24,7 +24,7 @@ const Hero = () => {
               Web Developer
             </div>
             <h1 className="h1 mb-4">Hello, my name is Randolph </h1>
-            <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
+            <p className="subtitle max-w-[590px] mx-auto xl:mx-0">
               Web developer with a Systems Engineering background and practical
               experience building complete applications. I've created projects
               featuring responsive interfaces, authentication systems, and full
