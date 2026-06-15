@@ -18,7 +18,7 @@ const infoData = [
   },
   {
     icon: <PhoneCall size={20} />,
-    text: "+51 945 529 033",
+    text: "+51 967 793 801",
   },
   {
     icon: <MailIcon size={20} />,
@@ -54,24 +54,34 @@ const qualificationData = [
     title: "experience",
     data: [
       {
+        company: "Fe y Alegría 18",
+        qualification: "IT & Programming Instructor",
+        years: "October - November 2025",
+      },
+      {
+        company: "Fe y Alegría 18",
+        qualification: "Educational Technology Specialist",
+        years: "June - September 2025",
+      },
+      {
         company: "Inngresa",
-        qualification: "Technical Writer",
+        qualification: "Junior Technical Writer",
         years: "October - December 2024",
       },
       {
         company: "UGEL Sullana",
-        qualification: "Technology and IT Support Assistant",
+        qualification: "IT Support Assistant (Pre-Professional Internship)",
         years: "February - June 2024",
       },
       {
         company: "Ricardo Palma School",
-        qualification: "Educational Solutions Developer",
-        years: "2022 - 2024",
+        qualification: "Software Developer (Pre-Professional Internship)",
+        years: "September 2023 - December 2023",
       },
       {
         company: "Rosa Mistica School",
-        qualification: "Computer Teacher",
-        years: "2022 - 2024",
+        qualification: "Computer Science Teacher & Administrative Manager",
+        years: "May 2022 - December 2023",
       },
     ],
   },
@@ -240,7 +250,7 @@ const About = () => {
                                   </div>
                                 </div>
                               );
-                            }
+                            },
                           )}
                         </div>
                       </div>
@@ -275,7 +285,7 @@ const About = () => {
                                   </div>
                                 </div>
                               );
-                            }
+                            },
                           )}
                         </div>
                       </div>
@@ -324,7 +334,7 @@ const About = () => {
                                 )}
                               </div>
                             );
-                          }
+                          },
                         )}
                       </div>
                     </div>

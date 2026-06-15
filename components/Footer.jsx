@@ -12,7 +12,7 @@ const Footer = () => {
           />
           {/* copyright */}
           <div className="text-muted-foreground">
-            Copyright &copy; Randolph Ramirez. All rights reserved.
+            Randolph Ramirez Palacios
           </div>
         </div>
       </div>

@@ -40,7 +40,7 @@ const Contact = () => {
             {/* phone */}
             <div className="flex items-center gap-x-8">
               <PhoneCall size={18} className="text-primary" />
-              <div>+51 945 529 033</div>
+              <div>+51 967 793 801</div>
             </div>
           </div>
           <FormElement />
