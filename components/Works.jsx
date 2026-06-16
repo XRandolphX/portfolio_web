@@ -15,65 +15,7 @@ import { Pagination } from "swiper/modules";
 // components
 import ProjectCard from "@/components/ProjectCard";
 
-const projectData = [
-  {
-    image: "/work/projects/document_manager.png",
-    category: "react js",
-    name: "Document Manager",
-    description:
-      "Document generator and manager for the private educational institution Ricardo Palma in Sullana. I helped myself to hostinger for the backend.",
-    technologies: "Technologies: JS, React, Bootstrap, Python, Flask",
-    demo: "Demo: Not Available",
-    link: "/",
-    github: "https://github.com/XRandolphX/document_generator.git",
-  },
-  {
-    image: "/work/projects/app_inserge.png",
-    category: "flutter",
-    name: "Inserge App",
-    description:
-      "Mobile app managing construction project records and generating reports. Utilizes natural language API for search functionality.",
-    technologies:
-      "Technologies: Flutter, Unity, Python, Flask, NumPy, Firebase",
-    demo: "Demo: Not Available",
-    link: "/",
-    github: "https://github.com/XRandolphX/ISG_MobileApp_Reports",
-  },
-  {
-    image: "/work/projects/inserge.png",
-    category: "Bootstrap",
-    name: "Logistics System Inserge",
-    description:
-      "Development of a web-based solution to improve and streamline logistics operations of the construction company Inserge.",
-    technologies:
-      "Technologies: Html, Css, Bootstrap, Php, JavaScript, CodeIgniter, MySQL, jQuery",
-    demo: "Demo: Not Available",
-    link: "/",
-    github: "https://github.com/XRandolphX/logistic_system_inserge",
-  },
-  {
-    image: "/work/projects/irrigation_app.png",
-    category: "MIT App Inventor",
-    name: "Smart Irrigation Application",
-    description:
-      "The mobile application allows control, as well as viewing soil statistics, and enables water supply to the controlled area in three modes: manual, automatic, and programmed.",
-    technologies: "Technologies: C++, Arduino IDE, MIT App Inventor",
-    demo: "Demo: Not Available",
-    link: "/",
-    github: "https://github.com/XRandolphX/Smart_Irrigation_App",
-  },
-  {
-    image: "/work/projects/light_consume.png",
-    category: "JavaFX",
-    name: "Electricity Bill Manager",
-    description:
-      "Desktop application for managing electricity bills and calculating the energy consumption of household appliances.",
-    technologies: "Technologies: JavaFX, Scene Builder, SQL Server",
-    demo: "Demo: Not Available",
-    link: "/",
-    github: "https://github.com/XRandolphX/LightConsume",
-  },
-];
+import { projectsData } from "@/data/projects";
 
 const Works = () => {
   return (
@@ -104,7 +46,7 @@ const Works = () => {
             pagination={{ clickable: true }}
           >
             {/* show only the first 4 projects for the slides */}
-            {projectData.slice(0, 3).map((project, index) => {
+            {projectsData.slice(0, 3).map((project, index) => {
               return (
                 <SwiperSlide key={index}>
                   <ProjectCard project={project} />
