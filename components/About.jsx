@@ -32,7 +32,7 @@ const infoData = [
   },
   {
     icon: <HomeIcon size={20} />,
-    text: "Sullana - Piura - Peru",
+    text: "Sullana, Piura - Peru",
   },
 ];
 
@@ -40,50 +40,38 @@ const skillData = [
   {
     title: "skills",
     data: [
+      { name: "Backend & APIs" },
+      { name: "Python · FastAPI · Flask · Node.js + Express · APIs REST" },
+      { name: "AI & LLMs" },
       {
-        name: "Front-end Development",
+        name: "OpenRouter · OpenAI · Gemini · language model integration",
       },
-      {
-        name: "HTML, CSS, JavaScript, React, y Next.js",
-      },
-      {
-        name: "Back-end Development",
-      },
-      {
-        name: "Node.js(Express.js), Python",
-      },
-      {
-        name: "Database",
-      },
-      {
-        name: "PostgreSQL, MySQL y Firebase",
-      },
-      // {
-      //   name: "Tools",
-      // },
-      // {
-      //   name: "Git, Figma y WordPress",
-      // },
+      { name: "Frontend" },
+      { name: "React · HTML5 · CSS3" },
+      { name: "Mobile" },
+      { name: "Kotlin (Android) · Flutter" },
+      { name: "Databases" },
+      { name: "PostgreSQL · Firebase" },
     ],
   },
   {
     title: "tools",
     data: [
       {
-        imgPath: "/about/vscode.svg",
+        imgPath: "/about/vs-code.svg",
       },
       {
-        imgPath: "/about/figma.svg",
+        imgPath: "/about/git-icon.svg",
       },
       {
-        imgPath: "/about/github.svg",
+        imgPath: "/about/github-icon.svg",
       },
       {
-        imgPath: "/about/git.svg",
+        imgPath: "/about/postman.svg",
       },
-      // {
-      //   imgPath: "/about/wordpress-icon.svg",
-      // },
+      {
+        imgPath: "/about/pgadmin.svg",
+      },
     ],
   },
 ];
@@ -130,13 +118,11 @@ const About = () => {
                 {/* personal */}
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-4">
-                      Dedicated to Delivering Exceptional Service from Day One
-                    </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      As a budding web developer, I focus on crafting
-                      user-friendly websites using the latest technologies to
-                      provide dynamic and enjoyable user interactions.
+                      I build backend systems that connect APIs, databases, and
+                      language models to solve concrete problems. Self-taught
+                      and naturally curious — I don't stop until I understand
+                      why things work the way they do.
                     </p>
                     {/* icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
@@ -164,7 +150,7 @@ const About = () => {
                 <TabsContent value="qualifications">
                   <div>
                     <h3 className="h3 mb-8 text-center xl:text-left">
-                      Stepping Into the Remarkable
+                      Education & Experience
                     </h3>
                     {/* experience & education wrapper */}
                     <div className="grid md:grid-cols-2 gap-y-8">
