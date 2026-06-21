@@ -2,12 +2,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { Download, Send } from "lucide-react";
 
-import {
-  RiBriefcase4Fill,
-  RiTeamFill,
-  RiTodoFill,
-  RiArrowDownSLine,
-} from "react-icons/ri";
+import { RiTodoFill } from "react-icons/ri";
 
 import DevImg from "./DevImg";
 import Badge from "./Badge";
@@ -21,23 +16,12 @@ const Hero = () => {
           {/* text */}
           <div className="flex max-w-[600px] md:max-w-[500px] lg:max-w-[600px] flex-col justify-center mx-auto text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
-              Web Developer
+              System Engineer
             </div>
             <h1 className="h1 mb-4">Hello, my name is Randolph </h1>
             <p className="subtitle max-w-[590px] mx-auto xl:mx-0">
-              Web developer with a Systems Engineering background and practical
-              experience building complete applications. I've created projects
-              featuring responsive interfaces, authentication systems, and full
-              CRUD functionality. On the frontend, I work with HTML, CSS,
-              JavaScript, and frameworks like React and Next.js, often paired
-              with Tailwind CSS or Bootstrap for efficient and consistent
-              styling. On the backend, I develop RESTful APIs using Node.js,
-              Express, and Python with Flask. I've integrated artificial
-              intelligence solutions and work with databases such as MySQL,
-              PostgreSQL, and Firebase for data storage and real-time
-              functionality. I'm committed to continuous learning, eager to
-              collaborate with dynamic teams, and contribute to scalable and
-              meaningful solutions.
+              I build backend systems that connect APIs, databases, and language
+              models to solve concrete problems.
             </p>
             {/* buttons */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">

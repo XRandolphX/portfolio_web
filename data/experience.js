@@ -9,7 +9,7 @@ export const qualificationData = [
       },
       {
         university: "ICPNA",
-        qualification: "English Student",
+        qualification: "English - B1 (actively improving)",
         years: "2017 - 2020",
       },
     ],
@@ -28,7 +28,7 @@ export const qualificationData = [
         years: "June - September 2025",
       },
       {
-        company: "Inngresa",
+        company: "Inngresa S.A.C.",
         qualification: "Junior Technical Writer",
         years: "October - December 2024",
       },
