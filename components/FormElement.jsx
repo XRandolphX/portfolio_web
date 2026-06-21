@@ -9,9 +9,6 @@ import { User, ArrowRightIcon, MessageSquare, MailIcon } from "lucide-react";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-// Importing Keys
-// import KEYS from "@/app/keys";
-
 const FormElement = () => {
   const form = useRef();
 
@@ -20,10 +17,10 @@ const FormElement = () => {
     // Keys
     emailjs
       .sendForm(
-        "service_czlqjam",
-        "template_8bspad3",
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         form.current,
-        "DAbHOHZVw1nit6CLk"
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
       )
       .then(
         (result) => {
@@ -33,7 +30,7 @@ const FormElement = () => {
         },
         (error) => {
           console.log(error.text);
-        }
+        },
       );
   };
   return (
